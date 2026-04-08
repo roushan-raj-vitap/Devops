@@ -15,7 +15,7 @@ pipeline {
         }
         stage('checkout'){
             steps{
-                git branch: 'master', url: 'https://github.com/roushan-raj-vitap/Devops.git'
+                // git branch: 'master', url: 'https://github.com/roushan-raj-vitap/Devops.git'
             }
         }
         stage('Build'){
